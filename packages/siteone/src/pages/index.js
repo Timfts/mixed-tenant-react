@@ -1,4 +1,5 @@
 import * as React from "react"
+import Test from "mxtr-shared/components/templates/HomePage"
 
 // styles
 const pageStyles = {
@@ -130,6 +131,7 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <title>Home Page</title>
+      <Test />
       <h1 style={headingStyles}>
         Congratulations
         <br />
@@ -138,7 +140,7 @@ const IndexPage = () => {
           🎉🎉🎉
         </span>
       </h1>
-      <p style={paragraphStyles}>
+      <p css={paragraphStyles}>
         Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
         update in real-time.{" "}
         <span role="img" aria-label="Sunglasses smiley emoji">
