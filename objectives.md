@@ -2,5 +2,7 @@
 * create two applications to consume core package
 * install sotrybook on core package
 * thematize components with emotion in applications
+* share something like a helmet component
+* share a script injection like analytics
 
 
