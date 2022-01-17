@@ -4,5 +4,6 @@
 * thematize components with emotion in applications
 * share something like a helmet component
 * share a script injection like analytics
-
+* add peerdependcies on shared module
+* independent deploy on github pages
 
