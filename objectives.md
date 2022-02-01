@@ -1,8 +1,9 @@
 * create a core package  - ok
 * create two applications to consume core package - ok
-* share gatsby config
+* share same gatsby config to all sites - ok
 * install sotrybook on core package - todo
 * thematize components with emotion in applications - todo
+* generate pages from the same source using the same template but different themes
 * share something like a helmet component - todo
 * share a script injection like analytics - todo
 * add peerdependcies on shared module - todo
