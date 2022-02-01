@@ -1,7 +1,11 @@
 module.exports = {
   siteMetadata: {
-      title: `siteone`,
-    siteUrl: `https://www.yourdomain.tld`
+    title: `siteone`,
+    siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: ["gatsby-plugin-emotion", "gatsby-plugin-react-helmet"]
+  plugins: [
+    "gatsby-plugin-emotion",
+    "gatsby-plugin-react-helmet",
+    "mxtr-shared",
+  ],
 };
