@@ -10,6 +10,10 @@
   "directories": {
     "lib": "lib"
   },
+  "devDependencies": {
+    "gatsby-plugin-sass": "^5.6.0",
+    "sass": "^1.49.4"
+  },
   "files": [
     "lib"
   ],
