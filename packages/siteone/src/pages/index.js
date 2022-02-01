@@ -1,5 +1,7 @@
 import * as React from "react"
-import Test from "mxtr-shared/components/templates/HomePage"
+/* import Test from "mxtr-shared/components/templates/HomePage" */
+
+import Card from "mxtr-shared/components/common/Card"
 
 // styles
 const pageStyles = {
@@ -13,6 +15,7 @@ const pageStyles = {
 const IndexPage = () => {
   return (
     <main css={pageStyles}>
+      <Card />
       <p>main page</p>
     </main>
   )
