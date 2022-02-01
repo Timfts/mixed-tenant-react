@@ -1,12 +1,13 @@
-import React from "react"
+import React from "react";
+import BaseLayout from "mxtr-shared/components/layouts/BaseLayout";
+import styleOverrides from "../style-overrides";
 
 const Layout = ({ children }) => {
-  console.log("Cenoura")
   return (
-    <div>
+    <BaseLayout customGlobal={styleOverrides}>
       <header>header</header>
       {children}
-    </div>
+    </BaseLayout>
   );
 };
 
