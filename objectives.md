@@ -7,3 +7,6 @@
 * add peerdependcies on shared module
 * independent deploy on github pages
 
+
+
+criar template 
