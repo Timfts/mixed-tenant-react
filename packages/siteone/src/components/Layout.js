@@ -1,6 +1,6 @@
 import React from "react";
 import BaseLayout from "mxtr-shared/components/layouts/BaseLayout";
-import styleOverrides from "../style-overrides";
+import styleOverrides from "../global-style-overrides";
 
 const Layout = ({ children }) => {
   return (
