@@ -1,8 +1,13 @@
-import React from "react"
-import "./Card.scss"
+import React from "react";
+import { Card } from "antd";
+import "./Card.scss";
 
-const Card = () => {
-  return <p className="card">card</p>
-}
+const MyCard = () => {
+  return (
+    <Card title="default card">
+      <p>potatos</p>
+    </Card>
+  );
+};
 
-export default Card
+export default MyCard;
