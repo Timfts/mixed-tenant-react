@@ -15,10 +15,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "@emotion/react": "^11.7.1",
-    "@emotion/styled": "^11.6.0",
     "gatsby": "^4.5.2",
-    "gatsby-plugin-emotion": "^7.5.0",
     "gatsby-plugin-react-helmet": "^5.5.0",
     "mxtr-shared": "^0.0.0",
     "react": "^17.0.1",

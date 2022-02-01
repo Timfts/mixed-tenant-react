@@ -16,6 +16,7 @@ const IndexPage = () => {
   return (
     <main css={pageStyles}>
       <Card />
+      <p css={{color: "aquamarine"}}>cebola</p>
       <p>main page</p>
     </main>
   )
